@@ -1,0 +1,19 @@
+{
+  "prefix" : "!",
+  "salesrep": "Sales Rep",
+
+  "_comment": "Who can use '!setrep'",
+  "setreprole": "Admin",
+
+  "__comment": "The commission channel",
+  "comChannel": "commissions",
+
+  "___comment": "The color of each embed [HEX]",
+  "embedcolor": "#0059ff",
+
+  "____comment": "Status will come out as 'Playing {status}'",
+  "status": "!new | Client Bot",
+
+  "footer": "Client Bot | 2018",
+  "token" : "NDU1MDk3ODU2ODc4MDUxMzQ4.Df3Ccg.ClJ_UZk6bwi3PNml6h3HcTZRV88"
+}
