@@ -1,9 +1,9 @@
 {
   "prefix" : "!",
-  "salesrep": "Sales Rep",
+  "salesrep": "Sales Representative",
 
   "_comment": "Who can use '!setrep'",
-  "setreprole": "Admin",
+  "setreprole": "Sales Representative",
 
   "__comment": "The commission channel",
   "comChannel": "commissions",
@@ -14,6 +14,6 @@
   "____comment": "Status will come out as 'Playing {status}'",
   "status": "!new | Client Bot",
 
-  "footer": "Client Bot | 2018",
+  "footer": "Fortnite Market Bot | 2018",
   "token" : "NDYxMTcyNjA1NjEzODk5Nzg3.DhUBJg.j0ZFRYo_7de2vEluEVXPAD345Tk"
 }
