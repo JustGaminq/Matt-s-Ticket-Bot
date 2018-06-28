@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const botconfig = require("../botconfig.json");
+const config = require("../config.json");
 const errors = require("../utils/errors.js");
 const moment = require('moment');
 
@@ -20,7 +20,7 @@ module.exports.run = async (bot, message, args, member, guild, size, command) =>
      .setTitle('**ERROR!**')
      .setDescription("Please provide a message!")
      .setTimestamp()
-     .setFooter(botconfig.footer);
+     .setFooter(config.footer);
 
      if (!msg[1]) return message.channel.send(errorEmbed);
 
